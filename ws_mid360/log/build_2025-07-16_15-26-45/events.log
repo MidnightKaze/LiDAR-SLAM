@@ -1,0 +1,477 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000435] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.005671] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.006829] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[0.007860] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aria/lidarslam/ws_mid360/build/lio_sam', '--', '-j20', '-l20'], 'cwd': '/home/aria/lidarslam/ws_mid360/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aria'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aria'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/aria/lidarslam/ws_mid360'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1643'), ('SYSTEMD_EXEC_PID', '2235'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3767'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aria'), ('JOURNAL_STREAM', '8:19960'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aria'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aria/.local/bin:/opt/ros/humble/bin:/home/aria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arialaptop3:@/tmp/.ICE-unix/2208,unix/arialaptop3:/tmp/.ICE-unix/2208'), ('INVOCATION_ID', 'aaa4764537de4bc698cfde094e52b585'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-753f0d72da.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aria/lidarslam/ws_mid360/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.053333] (lio_sam) StdoutLine: {'line': b'[  8%] Built target lio_sam__rosidl_generator_c\n'}
+[0.055989] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target lio_sam__cpp\n'}
+[0.058320] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_lio_sam\n'}
+[0.069098] (lio_sam) StdoutLine: {'line': b'[ 19%] Built target lio_sam__rosidl_typesupport_c\n'}
+[0.070660] (lio_sam) StdoutLine: {'line': b'[ 27%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[0.072026] (lio_sam) StdoutLine: {'line': b'[ 36%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[0.074242] (lio_sam) StdoutLine: {'line': b'[ 44%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[0.076545] (lio_sam) StdoutLine: {'line': b'[ 53%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[0.078933] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[0.086701] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration\x1b[0m\n'}
+[0.092607] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam\n'}
+[0.098532] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam_imageProjection\n'}
+[0.099819] (-) TimerEvent: {}
+[0.103273] (lio_sam) StdoutLine: {'line': b'[ 70%] Built target lio_sam_featureExtraction\n'}
+[0.112555] (lio_sam) StdoutLine: {'line': b'[ 72%] Built target lio_sam__py\n'}
+[0.112953] (lio_sam) StdoutLine: {'line': b'[ 76%] Built target lio_sam_mapOptimization\n'}
+[0.113269] (lio_sam) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[0.138605] (lio_sam) StdoutLine: {'line': b'[ 85%] Built target lio_sam__rosidl_generator_py\n'}
+[0.162197] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[0.162441] (lio_sam) StdoutLine: {'line': b'[ 93%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[0.162548] (lio_sam) StdoutLine: {'line': b'[ 97%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.200016] (-) TimerEvent: {}
+[0.218788] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[0.219140] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[0.219276] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[0.219387] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[0.220819] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.221116] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.241677] (lio_sam) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[0.300225] (-) TimerEvent: {}
+[0.400460] (-) TimerEvent: {}
+[0.500733] (-) TimerEvent: {}
+[0.601012] (-) TimerEvent: {}
+[0.701362] (-) TimerEvent: {}
+[0.801629] (-) TimerEvent: {}
+[0.901967] (-) TimerEvent: {}
+[1.002322] (-) TimerEvent: {}
+[1.102586] (-) TimerEvent: {}
+[1.202944] (-) TimerEvent: {}
+[1.303299] (-) TimerEvent: {}
+[1.403581] (-) TimerEvent: {}
+[1.503870] (-) TimerEvent: {}
+[1.604410] (-) TimerEvent: {}
+[1.704640] (-) TimerEvent: {}
+[1.804913] (-) TimerEvent: {}
+[1.905312] (-) TimerEvent: {}
+[2.005592] (-) TimerEvent: {}
+[2.105870] (-) TimerEvent: {}
+[2.206217] (-) TimerEvent: {}
+[2.306452] (-) TimerEvent: {}
+[2.406738] (-) TimerEvent: {}
+[2.507084] (-) TimerEvent: {}
+[2.607320] (-) TimerEvent: {}
+[2.707564] (-) TimerEvent: {}
+[2.807849] (-) TimerEvent: {}
+[2.908210] (-) TimerEvent: {}
+[3.008535] (-) TimerEvent: {}
+[3.108876] (-) TimerEvent: {}
+[3.209223] (-) TimerEvent: {}
+[3.309476] (-) TimerEvent: {}
+[3.409868] (-) TimerEvent: {}
+[3.510265] (-) TimerEvent: {}
+[3.610670] (-) TimerEvent: {}
+[3.711169] (-) TimerEvent: {}
+[3.811554] (-) TimerEvent: {}
+[3.911906] (-) TimerEvent: {}
+[4.012287] (-) TimerEvent: {}
+[4.112628] (-) TimerEvent: {}
+[4.212948] (-) TimerEvent: {}
+[4.313287] (-) TimerEvent: {}
+[4.413616] (-) TimerEvent: {}
+[4.513938] (-) TimerEvent: {}
+[4.614276] (-) TimerEvent: {}
+[4.714610] (-) TimerEvent: {}
+[4.814962] (-) TimerEvent: {}
+[4.915314] (-) TimerEvent: {}
+[5.015680] (-) TimerEvent: {}
+[5.116029] (-) TimerEvent: {}
+[5.216482] (-) TimerEvent: {}
+[5.316920] (-) TimerEvent: {}
+[5.417365] (-) TimerEvent: {}
+[5.517720] (-) TimerEvent: {}
+[5.618059] (-) TimerEvent: {}
+[5.718459] (-) TimerEvent: {}
+[5.818809] (-) TimerEvent: {}
+[5.919171] (-) TimerEvent: {}
+[6.019527] (-) TimerEvent: {}
+[6.119876] (-) TimerEvent: {}
+[6.220226] (-) TimerEvent: {}
+[6.320583] (-) TimerEvent: {}
+[6.420926] (-) TimerEvent: {}
+[6.521282] (-) TimerEvent: {}
+[6.621625] (-) TimerEvent: {}
+[6.721957] (-) TimerEvent: {}
+[6.822291] (-) TimerEvent: {}
+[6.922620] (-) TimerEvent: {}
+[7.022968] (-) TimerEvent: {}
+[7.123298] (-) TimerEvent: {}
+[7.223633] (-) TimerEvent: {}
+[7.323961] (-) TimerEvent: {}
+[7.424284] (-) TimerEvent: {}
+[7.524618] (-) TimerEvent: {}
+[7.624966] (-) TimerEvent: {}
+[7.725294] (-) TimerEvent: {}
+[7.825635] (-) TimerEvent: {}
+[7.925963] (-) TimerEvent: {}
+[8.026289] (-) TimerEvent: {}
+[8.126628] (-) TimerEvent: {}
+[8.226954] (-) TimerEvent: {}
+[8.327300] (-) TimerEvent: {}
+[8.427637] (-) TimerEvent: {}
+[8.527989] (-) TimerEvent: {}
+[8.628326] (-) TimerEvent: {}
+[8.728665] (-) TimerEvent: {}
+[8.828992] (-) TimerEvent: {}
+[8.929360] (-) TimerEvent: {}
+[9.029695] (-) TimerEvent: {}
+[9.130025] (-) TimerEvent: {}
+[9.230376] (-) TimerEvent: {}
+[9.330715] (-) TimerEvent: {}
+[9.431054] (-) TimerEvent: {}
+[9.531387] (-) TimerEvent: {}
+[9.631745] (-) TimerEvent: {}
+[9.732077] (-) TimerEvent: {}
+[9.832403] (-) TimerEvent: {}
+[9.932737] (-) TimerEvent: {}
+[10.033063] (-) TimerEvent: {}
+[10.133389] (-) TimerEvent: {}
+[10.233764] (-) TimerEvent: {}
+[10.334097] (-) TimerEvent: {}
+[10.434437] (-) TimerEvent: {}
+[10.534770] (-) TimerEvent: {}
+[10.635103] (-) TimerEvent: {}
+[10.735434] (-) TimerEvent: {}
+[10.835772] (-) TimerEvent: {}
+[10.936098] (-) TimerEvent: {}
+[11.036455] (-) TimerEvent: {}
+[11.136778] (-) TimerEvent: {}
+[11.237109] (-) TimerEvent: {}
+[11.337475] (-) TimerEvent: {}
+[11.437806] (-) TimerEvent: {}
+[11.538164] (-) TimerEvent: {}
+[11.638507] (-) TimerEvent: {}
+[11.738742] (-) TimerEvent: {}
+[11.839091] (-) TimerEvent: {}
+[11.939461] (-) TimerEvent: {}
+[12.039814] (-) TimerEvent: {}
+[12.140149] (-) TimerEvent: {}
+[12.240500] (-) TimerEvent: {}
+[12.340839] (-) TimerEvent: {}
+[12.441207] (-) TimerEvent: {}
+[12.541579] (-) TimerEvent: {}
+[12.641924] (-) TimerEvent: {}
+[12.742267] (-) TimerEvent: {}
+[12.842595] (-) TimerEvent: {}
+[12.942925] (-) TimerEvent: {}
+[13.043253] (-) TimerEvent: {}
+[13.143585] (-) TimerEvent: {}
+[13.243938] (-) TimerEvent: {}
+[13.344279] (-) TimerEvent: {}
+[13.444609] (-) TimerEvent: {}
+[13.544951] (-) TimerEvent: {}
+[13.645282] (-) TimerEvent: {}
+[13.745627] (-) TimerEvent: {}
+[13.845981] (-) TimerEvent: {}
+[13.946325] (-) TimerEvent: {}
+[14.046664] (-) TimerEvent: {}
+[14.146988] (-) TimerEvent: {}
+[14.247316] (-) TimerEvent: {}
+[14.347677] (-) TimerEvent: {}
+[14.448058] (-) TimerEvent: {}
+[14.548421] (-) TimerEvent: {}
+[14.648755] (-) TimerEvent: {}
+[14.749091] (-) TimerEvent: {}
+[14.849444] (-) TimerEvent: {}
+[14.949776] (-) TimerEvent: {}
+[15.050126] (-) TimerEvent: {}
+[15.150543] (-) TimerEvent: {}
+[15.250904] (-) TimerEvent: {}
+[15.351249] (-) TimerEvent: {}
+[15.451586] (-) TimerEvent: {}
+[15.551906] (-) TimerEvent: {}
+[15.652290] (-) TimerEvent: {}
+[15.752619] (-) TimerEvent: {}
+[15.852951] (-) TimerEvent: {}
+[15.953269] (-) TimerEvent: {}
+[16.053595] (-) TimerEvent: {}
+[16.153927] (-) TimerEvent: {}
+[16.254264] (-) TimerEvent: {}
+[16.354594] (-) TimerEvent: {}
+[16.454887] (-) TimerEvent: {}
+[16.555246] (-) TimerEvent: {}
+[16.655567] (-) TimerEvent: {}
+[16.755888] (-) TimerEvent: {}
+[16.856225] (-) TimerEvent: {}
+[16.956565] (-) TimerEvent: {}
+[17.056856] (-) TimerEvent: {}
+[17.157193] (-) TimerEvent: {}
+[17.257497] (-) TimerEvent: {}
+[17.357828] (-) TimerEvent: {}
+[17.458188] (-) TimerEvent: {}
+[17.558527] (-) TimerEvent: {}
+[17.658881] (-) TimerEvent: {}
+[17.759220] (-) TimerEvent: {}
+[17.859549] (-) TimerEvent: {}
+[17.959865] (-) TimerEvent: {}
+[18.060198] (-) TimerEvent: {}
+[18.160521] (-) TimerEvent: {}
+[18.260838] (-) TimerEvent: {}
+[18.361152] (-) TimerEvent: {}
+[18.461473] (-) TimerEvent: {}
+[18.561806] (-) TimerEvent: {}
+[18.662119] (-) TimerEvent: {}
+[18.762471] (-) TimerEvent: {}
+[18.862819] (-) TimerEvent: {}
+[18.963138] (-) TimerEvent: {}
+[19.063378] (-) TimerEvent: {}
+[19.163708] (-) TimerEvent: {}
+[19.263966] (-) TimerEvent: {}
+[19.364323] (-) TimerEvent: {}
+[19.464640] (-) TimerEvent: {}
+[19.564958] (-) TimerEvent: {}
+[19.665270] (-) TimerEvent: {}
+[19.765580] (-) TimerEvent: {}
+[19.865903] (-) TimerEvent: {}
+[19.966237] (-) TimerEvent: {}
+[20.066531] (-) TimerEvent: {}
+[20.166878] (-) TimerEvent: {}
+[20.267218] (-) TimerEvent: {}
+[20.367538] (-) TimerEvent: {}
+[20.467851] (-) TimerEvent: {}
+[20.568174] (-) TimerEvent: {}
+[20.668522] (-) TimerEvent: {}
+[20.768844] (-) TimerEvent: {}
+[20.869178] (-) TimerEvent: {}
+[20.969495] (-) TimerEvent: {}
+[21.069811] (-) TimerEvent: {}
+[21.170128] (-) TimerEvent: {}
+[21.270357] (-) TimerEvent: {}
+[21.370677] (-) TimerEvent: {}
+[21.470999] (-) TimerEvent: {}
+[21.571321] (-) TimerEvent: {}
+[21.671638] (-) TimerEvent: {}
+[21.771951] (-) TimerEvent: {}
+[21.872286] (-) TimerEvent: {}
+[21.972610] (-) TimerEvent: {}
+[22.072865] (-) TimerEvent: {}
+[22.173211] (-) TimerEvent: {}
+[22.273540] (-) TimerEvent: {}
+[22.373878] (-) TimerEvent: {}
+[22.474207] (-) TimerEvent: {}
+[22.574541] (-) TimerEvent: {}
+[22.674882] (-) TimerEvent: {}
+[22.775133] (-) TimerEvent: {}
+[22.875471] (-) TimerEvent: {}
+[22.975802] (-) TimerEvent: {}
+[23.076124] (-) TimerEvent: {}
+[23.176463] (-) TimerEvent: {}
+[23.276678] (-) TimerEvent: {}
+[23.377008] (-) TimerEvent: {}
+[23.477363] (-) TimerEvent: {}
+[23.577722] (-) TimerEvent: {}
+[23.678107] (-) TimerEvent: {}
+[23.778463] (-) TimerEvent: {}
+[23.878727] (-) TimerEvent: {}
+[23.979044] (-) TimerEvent: {}
+[24.079494] (-) TimerEvent: {}
+[24.179831] (-) TimerEvent: {}
+[24.180988] (lio_sam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_imuPreintegration\x1b[0m\n'}
+[24.280019] (-) TimerEvent: {}
+[24.380327] (-) TimerEvent: {}
+[24.480737] (-) TimerEvent: {}
+[24.581076] (-) TimerEvent: {}
+[24.603529] (lio_sam) StdoutLine: {'line': b'[100%] Built target lio_sam_imuPreintegration\n'}
+[24.617299] (lio_sam) CommandEnded: {'returncode': 0}
+[24.618927] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'install'}
+[24.629952] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aria/lidarslam/ws_mid360/build/lio_sam'], 'cwd': '/home/aria/lidarslam/ws_mid360/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aria'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aria'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/aria/lidarslam/ws_mid360'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1643'), ('SYSTEMD_EXEC_PID', '2235'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3767'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aria'), ('JOURNAL_STREAM', '8:19960'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aria'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aria/.local/bin:/opt/ros/humble/bin:/home/aria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arialaptop3:@/tmp/.ICE-unix/2208,unix/arialaptop3:/tmp/.ICE-unix/2208'), ('INVOCATION_ID', 'aaa4764537de4bc698cfde094e52b585'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-753f0d72da.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aria/lidarslam/ws_mid360/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[24.639486] (lio_sam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[24.639925] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam\n'}
+[24.640033] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam\n'}
+[24.640114] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[24.640205] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[24.640286] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.c\n'}
+[24.640363] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h\n'}
+[24.640436] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h\n'}
+[24.640505] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h\n'}
+[24.640567] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h\n'}
+[24.640628] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[24.640763] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h\n'}
+[24.640837] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.640901] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[24.640964] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h\n'}
+[24.641100] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.c\n'}
+[24.641172] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h\n'}
+[24.641238] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h\n'}
+[24.641298] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/library_path.sh\n'}
+[24.641361] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/library_path.dsv\n'}
+[24.641422] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so\n'}
+[24.641483] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam\n'}
+[24.641544] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[24.641607] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[24.641667] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[24.641798] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[24.641857] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.641922] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[24.641979] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[24.642037] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[24.642095] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam\n'}
+[24.642153] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[24.642220] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[24.642278] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.c\n'}
+[24.642337] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[24.642398] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[24.642457] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[24.642515] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.c\n'}
+[24.642573] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[24.642630] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.642768] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so\n'}
+[24.642837] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so\n'}
+[24.642899] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam\n'}
+[24.642958] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[24.643016] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp\n'}
+[24.643075] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[24.643134] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp\n'}
+[24.643204] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp\n'}
+[24.643258] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp\n'}
+[24.643417] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp\n'}
+[24.643467] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[24.643515] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[24.643567] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp\n'}
+[24.643615] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[24.643663] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp\n'}
+[24.643711] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp\n'}
+[24.643758] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp\n'}
+[24.643806] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp\n'}
+[24.643854] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam\n'}
+[24.643901] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[24.643947] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[24.643994] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/dds_fastrtps\n'}
+[24.644046] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.644094] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[24.644142] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[24.644227] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/dds_fastrtps\n'}
+[24.644278] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.644329] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.644377] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.644428] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam\n'}
+[24.644476] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv\n'}
+[24.644523] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail\n'}
+[24.644573] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.cpp\n'}
+[24.644621] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.644668] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg\n'}
+[24.644715] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail\n'}
+[24.644762] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.644808] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.cpp\n'}
+[24.644922] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[24.644973] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so\n'}
+[24.645019] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/pythonpath.sh\n'}
+[24.645062] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/pythonpath.dsv\n'}
+[24.645110] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info\n'}
+[24.645275] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.645326] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.645361] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.645396] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.645432] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam\n'}
+[24.645469] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so\n'}
+[24.645506] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv\n'}
+[24.645541] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c\n'}
+[24.645577] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py\n'}
+[24.645613] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py\n'}
+[24.645648] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg\n'}
+[24.645683] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c\n'}
+[24.645717] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py\n'}
+[24.645755] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py\n'}
+[24.645792] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.645827] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py\n'}
+[24.645862] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.645897] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.645936] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c\n'}
+[24.645971] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.646007] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.667314] (lio_sam) StdoutLine: {'line': b"Listing '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...\n"}
+[24.667502] (lio_sam) StdoutLine: {'line': b"Listing '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...\n"}
+[24.667597] (lio_sam) StdoutLine: {'line': b"Listing '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...\n"}
+[24.670473] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.670651] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.670835] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.670958] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so\n'}
+[24.671176] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/msg/CloudInfo.idl\n'}
+[24.671401] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/srv/SaveMap.idl\n'}
+[24.671501] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/msg/CloudInfo.msg\n'}
+[24.671588] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/srv/SaveMap.srv\n'}
+[24.671670] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg\n'}
+[24.671752] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg\n'}
+[24.671834] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//launch\n'}
+[24.671917] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//launch/run.launch.py\n'}
+[24.672000] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config\n'}
+[24.672082] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc\n'}
+[24.672175] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif\n'}
+[24.672263] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti-map.png\n'}
+[24.672341] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif\n'}
+[24.672419] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/device-jackal.png\n'}
+[24.672501] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti2bag\n'}
+[24.672610] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py\n'}
+[24.672690] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md\n'}
+[24.672771] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/paper.pdf\n'}
+[24.672854] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif\n'}
+[24.672935] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/device-boat.png\n'}
+[24.673076] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif\n'}
+[24.673166] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg\n'}
+[24.673314] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/system.png\n'}
+[24.673397] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/demo.gif\n'}
+[24.673479] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif\n'}
+[24.673561] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/imu-transform.png\n'}
+[24.673643] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif\n'}
+[24.673724] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/device-hand.png\n'}
+[24.673822] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png\n'}
+[24.673904] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/params.yaml\n'}
+[24.674002] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/rviz2.rviz\n'}
+[24.674084] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/robot.urdf.xacro\n'}
+[24.674171] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_imageProjection\n'}
+[24.674315] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration\n'}
+[24.674393] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration" to ""\n'}
+[24.674470] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction\n'}
+[24.674548] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization\n'}
+[24.674629] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include\n'}
+[24.674706] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam\n'}
+[24.674783] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/utility.hpp\n'}
+[24.674864] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam\n'}
+[24.674947] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam\n'}
+[24.675072] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh\n'}
+[24.675159] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv\n'}
+[24.675423] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/path.sh\n'}
+[24.675506] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/path.dsv\n'}
+[24.675588] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/local_setup.bash\n'}
+[24.675670] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/local_setup.sh\n'}
+[24.675751] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/local_setup.zsh\n'}
+[24.675832] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/local_setup.dsv\n'}
+[24.675913] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/package.dsv\n'}
+[24.675994] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/ament_index/resource_index/packages/lio_sam\n'}
+[24.676076] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake\n'}
+[24.676163] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake\n'}
+[24.676410] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.676492] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[24.676571] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.676676] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[24.676993] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake\n'}
+[24.677051] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake\n'}
+[24.677087] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake\n'}
+[24.677118] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.677148] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[24.677244] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.677491] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[24.677523] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake\n'}
+[24.677696] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake\n'}
+[24.677726] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake\n'}
+[24.677755] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake\n'}
+[24.677811] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake\n'}
+[24.677842] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.677870] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.677899] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.677927] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.677955] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.677983] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.678012] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake\n'}
+[24.678039] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake\n'}
+[24.678068] (lio_sam) StdoutLine: {'line': b'-- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/package.xml\n'}
+[24.678096] (lio_sam) CommandEnded: {'returncode': 0}
+[24.681210] (-) TimerEvent: {}
+[24.690247] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 0}
+[24.690810] (-) EventReactorShutdown: {}

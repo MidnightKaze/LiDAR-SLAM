@@ -1,0 +1,260 @@
+[0.010s] Invoking command in '/home/aria/lidarslam/ws_mid360/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aria/lidarslam/ws_mid360/build/lio_sam -- -j20 -l20
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_c[0m
+[0.062s] [  2%] Built target lio_sam__cpp
+[0.074s] [ 10%] Built target lio_sam__rosidl_generator_c
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_cpp[0m
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_cpp[0m
+[0.079s] [ 10%] Built target ament_cmake_python_copy_lio_sam
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c[0m
+[0.083s] [ 19%] Built target lio_sam__rosidl_typesupport_cpp
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c[0m
+[0.092s] [ 27%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.100s] [ 36%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.104s] [ 44%] Built target lio_sam__rosidl_typesupport_c
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_featureExtraction[0m
+[0.106s] [ 53%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection[0m
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization[0m
+[0.116s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.139s] [ 61%] Built target lio_sam
+[0.143s] [ 65%] Built target lio_sam_featureExtraction
+[0.143s] [ 70%] Built target lio_sam_imageProjection
+[0.148s] [ 72%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[0.158s] [ 74%] Built target lio_sam__py
+[0.166s] [ 78%] Built target lio_sam_mapOptimization
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_py[0m
+[0.177s] [ 85%] Built target lio_sam__rosidl_generator_py
+[0.186s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c__pyext[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext[0m
+[0.195s] [ 89%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.199s] [ 93%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.201s] [ 97%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.283s] running egg_info
+[0.283s] writing lio_sam.egg-info/PKG-INFO
+[0.284s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.284s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.285s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.285s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.303s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[1.658s] In file included from [01m[K/home/aria/lidarslam/ws_mid360/src/LIO-SAM/src/imuPreintegration.cpp:17[m[K:
+[1.658s] [01m[K/usr/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.658s]    17 | #[01;35m[Kwarning[m[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"
+[1.658s]       |  [01;35m[K^~~~~~~[m[K
+[24.377s] [100%] [32m[1mLinking CXX executable lio_sam_imuPreintegration[0m
+[24.771s] [100%] Built target lio_sam_imuPreintegration
+[24.785s] Invoked command in '/home/aria/lidarslam/ws_mid360/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aria/lidarslam/ws_mid360/build/lio_sam -- -j20 -l20
+[24.793s] Invoking command in '/home/aria/lidarslam/ws_mid360/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aria/lidarslam/ws_mid360/build/lio_sam
+[24.803s] -- Install configuration: "Release"
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.c
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.c
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h
+[24.804s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h
+[24.805s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/library_path.sh
+[24.805s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[24.805s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[24.805s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""
+[24.805s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam
+[24.805s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv
+[24.805s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[24.805s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[24.805s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg
+[24.805s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.805s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[24.805s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[24.805s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[24.806s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+[24.806s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam
+[24.806s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv
+[24.806s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[24.806s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.c
+[24.806s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[24.806s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg
+[24.806s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[24.806s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.c
+[24.806s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[24.806s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.806s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[24.807s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""
+[24.807s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[24.807s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""
+[24.807s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam
+[24.807s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv
+[24.807s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp
+[24.808s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[24.808s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp
+[24.808s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp
+[24.808s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp
+[24.808s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp
+[24.808s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg
+[24.809s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[24.809s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp
+[24.809s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[24.809s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp
+[24.809s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp
+[24.810s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp
+[24.810s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp
+[24.810s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam
+[24.810s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv
+[24.810s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[24.810s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/dds_fastrtps
+[24.811s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[24.811s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg
+[24.811s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[24.811s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/dds_fastrtps
+[24.811s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[24.811s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.811s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[24.812s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.812s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam
+[24.812s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv
+[24.812s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[24.812s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.cpp
+[24.812s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[24.812s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg
+[24.812s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[24.812s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[24.812s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.cpp
+[24.812s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[24.813s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[24.813s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py
+[24.813s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py
+[24.814s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.814s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py
+[24.814s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.814s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.814s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+[24.814s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[24.814s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.842s] Listing '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...
+[24.842s] Compiling '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py'...
+[24.842s] Listing '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...
+[24.842s] Compiling '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py'...
+[24.842s] Compiling '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py'...
+[24.842s] Listing '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...
+[24.842s] Compiling '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py'...
+[24.842s] Compiling '/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py'...
+[24.845s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.845s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.845s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.845s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.845s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.846s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so
+[24.846s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so" to ""
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//launch
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//launch/run.launch.py
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config
+[24.846s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc
+[24.847s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[24.850s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[24.850s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[24.856s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[24.857s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti2bag
+[24.857s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[24.857s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[24.857s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[24.859s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[24.861s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[24.861s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[24.866s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[24.866s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/system.png
+[24.866s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[24.870s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[24.875s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[24.876s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[24.883s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[24.883s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[24.883s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/params.yaml
+[24.883s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[24.883s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[24.883s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[24.884s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_imageProjection" to ""
+[24.884s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[24.885s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration" to ""
+[24.885s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[24.886s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction" to ""
+[24.886s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[24.887s] -- Set runtime path of "/home/aria/lidarslam/ws_mid360/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization" to ""
+[24.888s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include
+[24.888s] -- Up-to-date: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/include/lio_sam/utility.hpp
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/path.sh
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/environment/path.dsv
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/local_setup.bash
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/local_setup.sh
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/local_setup.zsh
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/local_setup.dsv
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/package.dsv
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[24.888s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[24.889s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[24.890s] -- Installing: /home/aria/lidarslam/ws_mid360/install/lio_sam/share/lio_sam/package.xml
+[24.892s] Invoked command in '/home/aria/lidarslam/ws_mid360/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aria/lidarslam/ws_mid360/build/lio_sam

@@ -1,0 +1,220 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-38f89468ad97efa9f670.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "kiss_icp",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-kiss_icp-Release-2ee0aa4576e78f178e98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/aria/lidarslam/src/kiss-icp/cpp/kiss_icp"
+				},
+				{
+					"build" : "_deps/tessil-build",
+					"jsonFile" : "directory-_deps.tessil-build-Release-25448d1fb3265d989509.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/aria/lidarslam/src/build/kiss_icp/_deps/tessil-src"
+				},
+				{
+					"build" : "kiss_icp/core",
+					"jsonFile" : "directory-kiss_icp.core-Release-9b4a8c017d1809fe2a1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/aria/lidarslam/src/kiss-icp/cpp/kiss_icp/core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "kiss_icp/metrics",
+					"jsonFile" : "directory-kiss_icp.metrics-Release-abfbdabc424bdf2da908.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/aria/lidarslam/src/kiss-icp/cpp/kiss_icp/metrics",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "kiss_icp/pipeline",
+					"jsonFile" : "directory-kiss_icp.pipeline-Release-7282e90036751f7139e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/aria/lidarslam/src/kiss-icp/cpp/kiss_icp/pipeline",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kiss_icp",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5
+					],
+					"name" : "kiss_icp_cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "tsl-robin-map",
+					"parentIndex" : 1
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "kiss_icp_core::@f15dea1d0e2072c61095",
+					"jsonFile" : "target-kiss_icp_core-Release-8433f4161cd9aeb10162.json",
+					"name" : "kiss_icp_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kiss_icp_metrics::@83fde38ab14997601bd9",
+					"jsonFile" : "target-kiss_icp_metrics-Release-edc13c3be54bb800677c.json",
+					"name" : "kiss_icp_metrics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kiss_icp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kiss_icp_node-Release-212347ae064543684817.json",
+					"name" : "kiss_icp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kiss_icp_pipeline::@4dfa1c09646d329e3f37",
+					"jsonFile" : "target-kiss_icp_pipeline-Release-689f869086d8b9eb154a.json",
+					"name" : "kiss_icp_pipeline",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kiss_icp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kiss_icp_uninstall-Release-6dc1ef58e7d099bbf606.json",
+					"name" : "kiss_icp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odometry_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odometry_component-Release-823cf830a6a17df82777.json",
+					"name" : "odometry_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-171d67916e5ee316b468.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aria/lidarslam/src/build/kiss_icp",
+		"source" : "/home/aria/lidarslam/src/kiss-icp/ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

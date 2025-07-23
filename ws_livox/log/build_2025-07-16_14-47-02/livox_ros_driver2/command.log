@@ -1,0 +1,2 @@
+Invoking command in '/home/aria/lidarslam/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aria/lidarslam/ws_livox/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/aria/lidarslam/ws_livox/install/livox_ros_driver2
+Invoked command in '/home/aria/lidarslam/ws_livox/build/livox_ros_driver2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aria/lidarslam/ws_livox/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/aria/lidarslam/ws_livox/install/livox_ros_driver2

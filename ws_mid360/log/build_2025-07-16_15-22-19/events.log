@@ -1,0 +1,757 @@
+[0.000000] (-) TimerEvent: {}
+[0.000347] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000393] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.004536] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.004867] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '/home/aria/lidarslam/ws_mid360/src/LIO-SAM', '-DCMAKE_INSTALL_PREFIX=/home/aria/lidarslam/ws_mid360/install/lio_sam'], 'cwd': '/home/aria/lidarslam/ws_mid360/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aria'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aria'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/aria/lidarslam/ws_mid360'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1643'), ('SYSTEMD_EXEC_PID', '2235'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3767'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aria'), ('JOURNAL_STREAM', '8:19960'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aria'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aria/.local/bin:/opt/ros/humble/bin:/home/aria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arialaptop3:@/tmp/.ICE-unix/2208,unix/arialaptop3:/tmp/.ICE-unix/2208'), ('INVOCATION_ID', 'aaa4764537de4bc698cfde094e52b585'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-753f0d72da.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aria/lidarslam/ws_mid360/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069143] (lio_sam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099541] (-) TimerEvent: {}
+[0.121803] (lio_sam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.128075] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199629] (-) TimerEvent: {}
+[0.218460] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.227766] (lio_sam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.227994] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.228459] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.231078] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299733] (-) TimerEvent: {}
+[0.318295] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.323445] (lio_sam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.323631] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.323936] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.325268] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399929] (-) TimerEvent: {}
+[0.444278] (lio_sam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500059] (-) TimerEvent: {}
+[0.504989] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.507477] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.510919] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.537021] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.556758] (lio_sam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.587057] (lio_sam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.588366] (lio_sam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600122] (-) TimerEvent: {}
+[0.673343] (lio_sam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700314] (-) TimerEvent: {}
+[0.701695] (lio_sam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.732883] (lio_sam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.741681] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800572] (-) TimerEvent: {}
+[0.835288] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.835779] (lio_sam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900714] (-) TimerEvent: {}
+[0.940678] (lio_sam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.942378] (lio_sam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.983170] (lio_sam) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.984111] (lio_sam) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.000769] (-) TimerEvent: {}
+[1.009261] (lio_sam) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.022731] (lio_sam) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.037508] (lio_sam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.063493] (lio_sam) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.076337] (lio_sam) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.100913] (-) TimerEvent: {}
+[1.122440] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.122687] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.156842] (lio_sam) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.172806] (lio_sam) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.201054] (-) TimerEvent: {}
+[1.228882] (lio_sam) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.229206] (lio_sam) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.301178] (-) TimerEvent: {}
+[1.401634] (-) TimerEvent: {}
+[1.501986] (-) TimerEvent: {}
+[1.602418] (-) TimerEvent: {}
+[1.702714] (-) TimerEvent: {}
+[1.803021] (-) TimerEvent: {}
+[1.903326] (-) TimerEvent: {}
+[2.003587] (-) TimerEvent: {}
+[2.103914] (-) TimerEvent: {}
+[2.204327] (-) TimerEvent: {}
+[2.260591] (lio_sam) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.277741] (lio_sam) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.304541] (-) TimerEvent: {}
+[2.322473] (lio_sam) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.324174] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.401936] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.404613] (-) TimerEvent: {}
+[2.504897] (-) TimerEvent: {}
+[2.540662] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.546760] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.554091] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.605029] (-) TimerEvent: {}
+[2.657919] (lio_sam) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.705240] (-) TimerEvent: {}
+[2.765652] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.805471] (-) TimerEvent: {}
+[2.883353] (lio_sam) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.883828] (lio_sam) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.884427] (lio_sam) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.884990] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.885600] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.886153] (lio_sam) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.886375] (lio_sam) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.886612] (lio_sam) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.887206] (lio_sam) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.887820] (lio_sam) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.888467] (lio_sam) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.889053] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.889682] (lio_sam) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.890382] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.890984] (lio_sam) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.891619] (lio_sam) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.892253] (lio_sam) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.892893] (lio_sam) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.893567] (lio_sam) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.894192] (lio_sam) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.894690] (lio_sam) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.894909] (lio_sam) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.895139] (lio_sam) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.895721] (lio_sam) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.896396] (lio_sam) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.905614] (-) TimerEvent: {}
+[2.909452] (lio_sam) StdoutLine: {'line': b'-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.917074] (lio_sam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.929383] (lio_sam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.930681] (lio_sam) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.930802] (lio_sam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.997133] (lio_sam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.13 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[3.000918] (lio_sam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.13 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[3.003924] (lio_sam) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.2.0") \n'}
+[3.004299] (lio_sam) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):\n'}
+[3.004431] (lio_sam) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[3.004528] (lio_sam) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[3.004738] (lio_sam) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[3.004850] (lio_sam) StderrLine: {'line': b'\n'}
+[3.004887] (lio_sam) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[3.004916] (lio_sam) StderrLine: {'line': b'\n'}
+[3.004944] (lio_sam) StderrLine: {'line': b'    /usr\n'}
+[3.004972] (lio_sam) StderrLine: {'line': b'\n'}
+[3.004999] (lio_sam) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[3.005026] (lio_sam) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.005059] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[3.005676] (-) TimerEvent: {}
+[3.052611] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex \n'}
+[3.057303] (lio_sam) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include\n'}
+[3.065155] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3  \n'}
+[3.065311] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.105883] (-) TimerEvent: {}
+[3.206171] (-) TimerEvent: {}
+[3.306592] (-) TimerEvent: {}
+[3.406945] (-) TimerEvent: {}
+[3.409114] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[3.507057] (-) TimerEvent: {}
+[3.511775] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[3.511979] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[3.607250] (-) TimerEvent: {}
+[3.707560] (-) TimerEvent: {}
+[3.749925] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.807791] (-) TimerEvent: {}
+[3.908074] (-) TimerEvent: {}
+[3.955109] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.008267] (-) TimerEvent: {}
+[4.108609] (-) TimerEvent: {}
+[4.208928] (-) TimerEvent: {}
+[4.228762] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.254366] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.255619] (lio_sam) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.275802] (lio_sam) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.275895] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.275930] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.275960] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.291756] (lio_sam) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.309097] (-) TimerEvent: {}
+[4.398771] (lio_sam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.409066] (lio_sam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.409146] (-) TimerEvent: {}
+[4.411118] (lio_sam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.412211] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/aria/lidarslam/ws_mid360/src/LIO-SAM/include/lio_sam\n'}
+[4.412290] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.414114] (lio_sam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.414191] (lio_sam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.414489] (lio_sam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.415253] (lio_sam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.415600] (lio_sam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.417605] (lio_sam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.417682] (lio_sam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.417845] (lio_sam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.419182] (lio_sam) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.509389] (-) TimerEvent: {}
+[4.528634] (lio_sam) StdoutLine: {'line': b'-- Generating done\n'}
+[4.554848] (lio_sam) StdoutLine: {'line': b'-- Build files have been written to: /home/aria/lidarslam/ws_mid360/build/lio_sam\n'}
+[4.568699] (lio_sam) CommandEnded: {'returncode': 0}
+[4.570268] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[4.570288] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aria/lidarslam/ws_mid360/build/lio_sam', '--', '-j20', '-l20'], 'cwd': '/home/aria/lidarslam/ws_mid360/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aria'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aria'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/aria/lidarslam/ws_mid360'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1643'), ('SYSTEMD_EXEC_PID', '2235'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3767'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aria'), ('JOURNAL_STREAM', '8:19960'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aria'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aria/.local/bin:/opt/ros/humble/bin:/home/aria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arialaptop3:@/tmp/.ICE-unix/2208,unix/arialaptop3:/tmp/.ICE-unix/2208'), ('INVOCATION_ID', 'aaa4764537de4bc698cfde094e52b585'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-753f0d72da.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aria/lidarslam/ws_mid360/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.609616] (-) TimerEvent: {}
+[4.616698] (lio_sam) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.625238] (lio_sam) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.632654] (lio_sam) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_lio_sam\n'}
+[4.709726] (-) TimerEvent: {}
+[4.785668] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[4.785937] (lio_sam) StdoutLine: {'line': b'creating lio_sam.egg-info\n'}
+[4.786049] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[4.786171] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[4.786260] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[4.786439] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[4.787475] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[4.787726] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[4.807444] (lio_sam) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[4.809790] (-) TimerEvent: {}
+[4.882756] (lio_sam) StdoutLine: {'line': b'[  4%] Built target lio_sam__cpp\n'}
+[4.885650] (lio_sam) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o\x1b[0m\n'}
+[4.885802] (lio_sam) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o\x1b[0m\n'}
+[4.890973] (lio_sam) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.891138] (lio_sam) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.892664] (lio_sam) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.909898] (-) TimerEvent: {}
+[5.010213] (-) TimerEvent: {}
+[5.061009] (lio_sam) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library liblio_sam__rosidl_generator_c.so\x1b[0m\n'}
+[5.094376] (lio_sam) StdoutLine: {'line': b'[ 17%] Built target lio_sam__rosidl_generator_c\n'}
+[5.103386] (lio_sam) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.103601] (lio_sam) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.105257] (lio_sam) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.110317] (-) TimerEvent: {}
+[5.127665] (lio_sam) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[5.128306] (lio_sam) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[5.130142] (lio_sam) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[5.130643] (lio_sam) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o\x1b[0m\n'}
+[5.145422] (lio_sam) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\x1b[0m\n'}
+[5.145740] (lio_sam) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[5.210450] (-) TimerEvent: {}
+[5.310736] (-) TimerEvent: {}
+[5.376644] (lio_sam) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o\x1b[0m\n'}
+[5.376913] (lio_sam) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o\x1b[0m\n'}
+[5.392120] (lio_sam) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.394277] (lio_sam) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o\x1b[0m\n'}
+[5.394441] (lio_sam) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o\x1b[0m\n'}
+[5.410840] (-) TimerEvent: {}
+[5.424649] (lio_sam) StdoutLine: {'line': b'[ 46%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[5.440579] (lio_sam) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o\x1b[0m\n'}
+[5.442830] (lio_sam) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[5.444489] (lio_sam) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o\x1b[0m\n'}
+[5.446394] (lio_sam) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o\x1b[0m\n'}
+[5.446614] (lio_sam) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library liblio_sam__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.473931] (lio_sam) StdoutLine: {'line': b'[ 57%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[5.505981] (lio_sam) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.510949] (-) TimerEvent: {}
+[5.522016] (lio_sam) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[5.522371] (lio_sam) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[5.557895] (lio_sam) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.589812] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[5.594978] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam__rosidl_typesupport_c\n'}
+[5.611037] (-) TimerEvent: {}
+[5.629770] (lio_sam) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.649379] (lio_sam) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.680853] (lio_sam) StdoutLine: {'line': b'[ 70%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[5.707212] (lio_sam) StdoutLine: {'line': b'[ 70%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[5.711120] (-) TimerEvent: {}
+[5.728078] (lio_sam) StdoutLine: {'line': b'[ 70%] Built target lio_sam\n'}
+[5.750426] (lio_sam) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.811329] (-) TimerEvent: {}
+[5.911696] (-) TimerEvent: {}
+[6.012042] (-) TimerEvent: {}
+[6.112407] (-) TimerEvent: {}
+[6.177425] (lio_sam) StdoutLine: {'line': b'[ 72%] Built target lio_sam__py\n'}
+[6.194948] (lio_sam) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o\x1b[0m\n'}
+[6.196147] (lio_sam) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o\x1b[0m\n'}
+[6.212523] (-) TimerEvent: {}
+[6.312828] (-) TimerEvent: {}
+[6.391110] (lio_sam) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lio_sam/liblio_sam__rosidl_generator_py.so\x1b[0m\n'}
+[6.412964] (-) TimerEvent: {}
+[6.427407] (lio_sam) StdoutLine: {'line': b'[ 78%] Built target lio_sam__rosidl_generator_py\n'}
+[6.445697] (lio_sam) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.447933] (lio_sam) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.448040] (lio_sam) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.513067] (-) TimerEvent: {}
+[6.541760] (lio_sam) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.541922] (lio_sam) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.547944] (lio_sam) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.577363] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.578894] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[6.579258] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[6.613250] (-) TimerEvent: {}
+[6.713506] (-) TimerEvent: {}
+[6.813786] (-) TimerEvent: {}
+[6.914116] (-) TimerEvent: {}
+[7.014470] (-) TimerEvent: {}
+[7.114759] (-) TimerEvent: {}
+[7.215054] (-) TimerEvent: {}
+[7.236714] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aria/lidarslam/ws_mid360/src/LIO-SAM/src/imuPreintegration.cpp:17\x1b[m\x1b[K:\n'}
+[7.236880] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.236970] (lio_sam) StderrLine: {'line': b'   17 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"\n'}
+[7.237026] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.315162] (-) TimerEvent: {}
+[7.415441] (-) TimerEvent: {}
+[7.515737] (-) TimerEvent: {}
+[7.616027] (-) TimerEvent: {}
+[7.716331] (-) TimerEvent: {}
+[7.816625] (-) TimerEvent: {}
+[7.916909] (-) TimerEvent: {}
+[8.017232] (-) TimerEvent: {}
+[8.117530] (-) TimerEvent: {}
+[8.217821] (-) TimerEvent: {}
+[8.318206] (-) TimerEvent: {}
+[8.418639] (-) TimerEvent: {}
+[8.519101] (-) TimerEvent: {}
+[8.619574] (-) TimerEvent: {}
+[8.719933] (-) TimerEvent: {}
+[8.820368] (-) TimerEvent: {}
+[8.920696] (-) TimerEvent: {}
+[9.021155] (-) TimerEvent: {}
+[9.121623] (-) TimerEvent: {}
+[9.222072] (-) TimerEvent: {}
+[9.322535] (-) TimerEvent: {}
+[9.422965] (-) TimerEvent: {}
+[9.523401] (-) TimerEvent: {}
+[9.623841] (-) TimerEvent: {}
+[9.724311] (-) TimerEvent: {}
+[9.824779] (-) TimerEvent: {}
+[9.925208] (-) TimerEvent: {}
+[10.025653] (-) TimerEvent: {}
+[10.125986] (-) TimerEvent: {}
+[10.226423] (-) TimerEvent: {}
+[10.326899] (-) TimerEvent: {}
+[10.427375] (-) TimerEvent: {}
+[10.527743] (-) TimerEvent: {}
+[10.628237] (-) TimerEvent: {}
+[10.728667] (-) TimerEvent: {}
+[10.829102] (-) TimerEvent: {}
+[10.929481] (-) TimerEvent: {}
+[11.029945] (-) TimerEvent: {}
+[11.130418] (-) TimerEvent: {}
+[11.230798] (-) TimerEvent: {}
+[11.331137] (-) TimerEvent: {}
+[11.431470] (-) TimerEvent: {}
+[11.531929] (-) TimerEvent: {}
+[11.632366] (-) TimerEvent: {}
+[11.732714] (-) TimerEvent: {}
+[11.833107] (-) TimerEvent: {}
+[11.933581] (-) TimerEvent: {}
+[12.033957] (-) TimerEvent: {}
+[12.134464] (-) TimerEvent: {}
+[12.234925] (-) TimerEvent: {}
+[12.335391] (-) TimerEvent: {}
+[12.435875] (-) TimerEvent: {}
+[12.536417] (-) TimerEvent: {}
+[12.636869] (-) TimerEvent: {}
+[12.737318] (-) TimerEvent: {}
+[12.837791] (-) TimerEvent: {}
+[12.938242] (-) TimerEvent: {}
+[13.038610] (-) TimerEvent: {}
+[13.138954] (-) TimerEvent: {}
+[13.239408] (-) TimerEvent: {}
+[13.339816] (-) TimerEvent: {}
+[13.440245] (-) TimerEvent: {}
+[13.540704] (-) TimerEvent: {}
+[13.641016] (-) TimerEvent: {}
+[13.656418] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aria/lidarslam/ws_mid360/src/LIO-SAM/src/imuPreintegration.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KIMUPreintegration::IMUPreintegration(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.656666] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aria/lidarslam/ws_mid360/src/LIO-SAM/src/imuPreintegration.cpp:248:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 requested\n'}
+[13.656770] (lio_sam) StderrLine: {'line': b'  248 |         boost::shared_ptr<gtsam::PreintegrationParams> p = \x1b[01;31m\x1b[Kgtsam::PreintegrationParams::MakeSharedU(imuGravity)\x1b[m\x1b[K;\n'}
+[13.656859] (lio_sam) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.672519] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aria/lidarslam/ws_mid360/src/LIO-SAM/src/imuPreintegration.cpp:261:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(boost::shared_ptr<gtsam::PreintegrationParams>&, gtsam::imuBias::ConstantBias&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.672749] (lio_sam) StderrLine: {'line': b'  261 |         imuIntegratorImu_ = new gtsam::PreintegratedImuMeasurements(p, prior_imu_bias\x1b[01;31m\x1b[K)\x1b[m\x1b[K; // setting up the IMU integration for IMU message thread\n'}
+[13.672863] (lio_sam) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.672958] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aria/lidarslam/ws_mid360/src/LIO-SAM/src/imuPreintegration.cpp:8\x1b[m\x1b[K:\n'}
+[13.673041] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:105:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const PreintegrationType&, const Matrix9&) [with PreintegrationType = gtsam::TangentPreintegration; gtsam::Matrix9 = Eigen::Matrix<double, 9, 9, 0, 9, 9>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.673127] (lio_sam) StderrLine: {'line': b'  105 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K(const PreintegrationType& base, const Matrix9& preintMeasCov)\n'}
+[13.673208] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.673288] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:105:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst gtsam::TangentPreintegration&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.673371] (lio_sam) StderrLine: {'line': b'  105 |   PreintegratedImuMeasurementsT(\x1b[01;36m\x1b[Kconst PreintegrationType& base\x1b[m\x1b[K, const Matrix9& preintMeasCov)\n'}
+[13.673451] (lio_sam) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[13.673537] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:94:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const std::shared_ptr<gtsam::PreintegrationParams>&, const gtsam::imuBias::ConstantBias&) [with PreintegrationType = gtsam::TangentPreintegration]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.673628] (lio_sam) StderrLine: {'line': b'   94 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K(const std::shared_ptr<PreintegrationParams>& p,\n'}
+[13.673709] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.673788] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:94:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<gtsam::PreintegrationParams>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.673878] (lio_sam) StderrLine: {'line': b'   94 |   PreintegratedImuMeasurementsT(\x1b[01;36m\x1b[Kconst std::shared_ptr<PreintegrationParams>& p\x1b[m\x1b[K,\n'}
+[13.673956] (lio_sam) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[13.674034] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:85:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT() [with PreintegrationType = gtsam::TangentPreintegration]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.674113] (lio_sam) StderrLine: {'line': b'   85 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K() {\n'}
+[13.674192] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.674270] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:85:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[13.674353] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:72:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(const gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.674431] (lio_sam) StderrLine: {'line': b'   72 | class GTSAM_EXPORT \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K: public PreintegrationType {\n'}
+[13.674516] (lio_sam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.674600] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:72:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[13.674677] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aria/lidarslam/ws_mid360/src/LIO-SAM/src/imuPreintegration.cpp:262:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(boost::shared_ptr<gtsam::PreintegrationParams>&, gtsam::imuBias::ConstantBias&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.674754] (lio_sam) StderrLine: {'line': b'  262 |         imuIntegratorOpt_ = new gtsam::PreintegratedImuMeasurements(p, prior_imu_bias\x1b[01;31m\x1b[K)\x1b[m\x1b[K; // setting up the IMU integration for optimization\n'}
+[13.674829] (lio_sam) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.674903] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aria/lidarslam/ws_mid360/src/LIO-SAM/src/imuPreintegration.cpp:8\x1b[m\x1b[K:\n'}
+[13.674982] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:105:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const PreintegrationType&, const Matrix9&) [with PreintegrationType = gtsam::TangentPreintegration; gtsam::Matrix9 = Eigen::Matrix<double, 9, 9, 0, 9, 9>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.675060] (lio_sam) StderrLine: {'line': b'  105 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K(const PreintegrationType& base, const Matrix9& preintMeasCov)\n'}
+[13.675135] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.675208] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:105:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst gtsam::TangentPreintegration&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.675284] (lio_sam) StderrLine: {'line': b'  105 |   PreintegratedImuMeasurementsT(\x1b[01;36m\x1b[Kconst PreintegrationType& base\x1b[m\x1b[K, const Matrix9& preintMeasCov)\n'}
+[13.675359] (lio_sam) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[13.675433] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:94:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT(const std::shared_ptr<gtsam::PreintegrationParams>&, const gtsam::imuBias::ConstantBias&) [with PreintegrationType = gtsam::TangentPreintegration]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.675517] (lio_sam) StderrLine: {'line': b'   94 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K(const std::shared_ptr<PreintegrationParams>& p,\n'}
+[13.675602] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.675676] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:94:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<gtsam::PreintegrationParams>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<gtsam::PreintegrationParams>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.675753] (lio_sam) StderrLine: {'line': b'   94 |   PreintegratedImuMeasurementsT(\x1b[01;36m\x1b[Kconst std::shared_ptr<PreintegrationParams>& p\x1b[m\x1b[K,\n'}
+[13.675832] (lio_sam) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[13.675906] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:85:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<PreintegrationType>::PreintegratedImuMeasurementsT() [with PreintegrationType = gtsam::TangentPreintegration]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.675982] (lio_sam) StderrLine: {'line': b'   85 |   \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K() {\n'}
+[13.676056] (lio_sam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.676129] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:85:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[13.676204] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:72:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>::PreintegratedImuMeasurementsT(const gtsam::PreintegratedImuMeasurementsT<gtsam::TangentPreintegration>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.676279] (lio_sam) StderrLine: {'line': b'   72 | class GTSAM_EXPORT \x1b[01;36m\x1b[KPreintegratedImuMeasurementsT\x1b[m\x1b[K: public PreintegrationType {\n'}
+[13.676354] (lio_sam) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.676429] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gtsam/navigation/ImuFactor.h:72:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[13.741157] (-) TimerEvent: {}
+[13.841616] (-) TimerEvent: {}
+[13.942066] (-) TimerEvent: {}
+[14.042530] (-) TimerEvent: {}
+[14.142981] (-) TimerEvent: {}
+[14.243448] (-) TimerEvent: {}
+[14.343949] (-) TimerEvent: {}
+[14.444449] (-) TimerEvent: {}
+[14.544827] (-) TimerEvent: {}
+[14.645291] (-) TimerEvent: {}
+[14.745732] (-) TimerEvent: {}
+[14.846165] (-) TimerEvent: {}
+[14.946514] (-) TimerEvent: {}
+[15.046874] (-) TimerEvent: {}
+[15.147217] (-) TimerEvent: {}
+[15.247665] (-) TimerEvent: {}
+[15.348044] (-) TimerEvent: {}
+[15.448526] (-) TimerEvent: {}
+[15.548896] (-) TimerEvent: {}
+[15.649335] (-) TimerEvent: {}
+[15.749796] (-) TimerEvent: {}
+[15.850252] (-) TimerEvent: {}
+[15.950724] (-) TimerEvent: {}
+[16.051097] (-) TimerEvent: {}
+[16.151583] (-) TimerEvent: {}
+[16.252019] (-) TimerEvent: {}
+[16.352398] (-) TimerEvent: {}
+[16.452696] (-) TimerEvent: {}
+[16.553006] (-) TimerEvent: {}
+[16.653357] (-) TimerEvent: {}
+[16.753602] (-) TimerEvent: {}
+[16.853835] (-) TimerEvent: {}
+[16.954120] (-) TimerEvent: {}
+[17.054487] (-) TimerEvent: {}
+[17.154734] (-) TimerEvent: {}
+[17.255026] (-) TimerEvent: {}
+[17.355446] (-) TimerEvent: {}
+[17.455881] (-) TimerEvent: {}
+[17.556248] (-) TimerEvent: {}
+[17.656611] (-) TimerEvent: {}
+[17.757016] (-) TimerEvent: {}
+[17.857388] (-) TimerEvent: {}
+[17.957675] (-) TimerEvent: {}
+[18.057921] (-) TimerEvent: {}
+[18.158184] (-) TimerEvent: {}
+[18.258572] (-) TimerEvent: {}
+[18.358862] (-) TimerEvent: {}
+[18.459139] (-) TimerEvent: {}
+[18.559464] (-) TimerEvent: {}
+[18.659704] (-) TimerEvent: {}
+[18.759943] (-) TimerEvent: {}
+[18.860298] (-) TimerEvent: {}
+[18.960642] (-) TimerEvent: {}
+[19.060880] (-) TimerEvent: {}
+[19.161219] (-) TimerEvent: {}
+[19.261564] (-) TimerEvent: {}
+[19.361800] (-) TimerEvent: {}
+[19.462071] (-) TimerEvent: {}
+[19.562427] (-) TimerEvent: {}
+[19.662692] (-) TimerEvent: {}
+[19.762968] (-) TimerEvent: {}
+[19.863338] (-) TimerEvent: {}
+[19.963656] (-) TimerEvent: {}
+[20.063894] (-) TimerEvent: {}
+[20.164166] (-) TimerEvent: {}
+[20.264515] (-) TimerEvent: {}
+[20.364756] (-) TimerEvent: {}
+[20.464984] (-) TimerEvent: {}
+[20.565317] (-) TimerEvent: {}
+[20.665650] (-) TimerEvent: {}
+[20.765882] (-) TimerEvent: {}
+[20.866216] (-) TimerEvent: {}
+[20.966554] (-) TimerEvent: {}
+[21.066786] (-) TimerEvent: {}
+[21.167062] (-) TimerEvent: {}
+[21.267405] (-) TimerEvent: {}
+[21.367651] (-) TimerEvent: {}
+[21.467878] (-) TimerEvent: {}
+[21.568145] (-) TimerEvent: {}
+[21.668473] (-) TimerEvent: {}
+[21.768720] (-) TimerEvent: {}
+[21.868969] (-) TimerEvent: {}
+[21.969298] (-) TimerEvent: {}
+[22.069627] (-) TimerEvent: {}
+[22.169851] (-) TimerEvent: {}
+[22.270126] (-) TimerEvent: {}
+[22.370457] (-) TimerEvent: {}
+[22.470713] (-) TimerEvent: {}
+[22.523382] (lio_sam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] Error 1\n'}
+[22.523583] (lio_sam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/lio_sam_imuPreintegration.dir/all] Error 2\n'}
+[22.523622] (lio_sam) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[22.570806] (-) TimerEvent: {}
+[22.671071] (-) TimerEvent: {}
+[22.771382] (-) TimerEvent: {}
+[22.871648] (-) TimerEvent: {}
+[22.954663] (lio_sam) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_featureExtraction\x1b[0m\n'}
+[22.971743] (-) TimerEvent: {}
+[23.072004] (-) TimerEvent: {}
+[23.172325] (-) TimerEvent: {}
+[23.272683] (-) TimerEvent: {}
+[23.372910] (-) TimerEvent: {}
+[23.473227] (-) TimerEvent: {}
+[23.501097] (lio_sam) StdoutLine: {'line': b'[ 93%] Built target lio_sam_featureExtraction\n'}
+[23.573422] (-) TimerEvent: {}
+[23.673663] (-) TimerEvent: {}
+[23.773988] (-) TimerEvent: {}
+[23.874318] (-) TimerEvent: {}
+[23.974655] (-) TimerEvent: {}
+[24.074988] (-) TimerEvent: {}
+[24.175316] (-) TimerEvent: {}
+[24.275667] (-) TimerEvent: {}
+[24.376002] (-) TimerEvent: {}
+[24.476337] (-) TimerEvent: {}
+[24.576580] (-) TimerEvent: {}
+[24.676904] (-) TimerEvent: {}
+[24.777232] (-) TimerEvent: {}
+[24.877568] (-) TimerEvent: {}
+[24.977837] (-) TimerEvent: {}
+[25.078160] (-) TimerEvent: {}
+[25.178490] (-) TimerEvent: {}
+[25.278851] (-) TimerEvent: {}
+[25.379196] (-) TimerEvent: {}
+[25.479543] (-) TimerEvent: {}
+[25.579870] (-) TimerEvent: {}
+[25.680201] (-) TimerEvent: {}
+[25.780431] (-) TimerEvent: {}
+[25.880781] (-) TimerEvent: {}
+[25.981005] (-) TimerEvent: {}
+[26.081330] (-) TimerEvent: {}
+[26.181543] (-) TimerEvent: {}
+[26.281765] (-) TimerEvent: {}
+[26.382107] (-) TimerEvent: {}
+[26.482426] (-) TimerEvent: {}
+[26.582652] (-) TimerEvent: {}
+[26.682886] (-) TimerEvent: {}
+[26.783154] (-) TimerEvent: {}
+[26.883477] (-) TimerEvent: {}
+[26.949821] (lio_sam) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_imageProjection\x1b[0m\n'}
+[26.983656] (-) TimerEvent: {}
+[27.083885] (-) TimerEvent: {}
+[27.184213] (-) TimerEvent: {}
+[27.284547] (-) TimerEvent: {}
+[27.327144] (lio_sam) StdoutLine: {'line': b'[ 95%] Built target lio_sam_imageProjection\n'}
+[27.384743] (-) TimerEvent: {}
+[27.484965] (-) TimerEvent: {}
+[27.585280] (-) TimerEvent: {}
+[27.685619] (-) TimerEvent: {}
+[27.785853] (-) TimerEvent: {}
+[27.886080] (-) TimerEvent: {}
+[27.986393] (-) TimerEvent: {}
+[28.086656] (-) TimerEvent: {}
+[28.186884] (-) TimerEvent: {}
+[28.287227] (-) TimerEvent: {}
+[28.387574] (-) TimerEvent: {}
+[28.487799] (-) TimerEvent: {}
+[28.588071] (-) TimerEvent: {}
+[28.688418] (-) TimerEvent: {}
+[28.788804] (-) TimerEvent: {}
+[28.889304] (-) TimerEvent: {}
+[28.989659] (-) TimerEvent: {}
+[29.089991] (-) TimerEvent: {}
+[29.190323] (-) TimerEvent: {}
+[29.290662] (-) TimerEvent: {}
+[29.391003] (-) TimerEvent: {}
+[29.491342] (-) TimerEvent: {}
+[29.591685] (-) TimerEvent: {}
+[29.692005] (-) TimerEvent: {}
+[29.792268] (-) TimerEvent: {}
+[29.892618] (-) TimerEvent: {}
+[29.992973] (-) TimerEvent: {}
+[30.093337] (-) TimerEvent: {}
+[30.193673] (-) TimerEvent: {}
+[30.293913] (-) TimerEvent: {}
+[30.394245] (-) TimerEvent: {}
+[30.494567] (-) TimerEvent: {}
+[30.594895] (-) TimerEvent: {}
+[30.695209] (-) TimerEvent: {}
+[30.795626] (-) TimerEvent: {}
+[30.895873] (-) TimerEvent: {}
+[30.996282] (-) TimerEvent: {}
+[31.096613] (-) TimerEvent: {}
+[31.196836] (-) TimerEvent: {}
+[31.297107] (-) TimerEvent: {}
+[31.397436] (-) TimerEvent: {}
+[31.497772] (-) TimerEvent: {}
+[31.598003] (-) TimerEvent: {}
+[31.698316] (-) TimerEvent: {}
+[31.798658] (-) TimerEvent: {}
+[31.898988] (-) TimerEvent: {}
+[31.999307] (-) TimerEvent: {}
+[32.099639] (-) TimerEvent: {}
+[32.199857] (-) TimerEvent: {}
+[32.300066] (-) TimerEvent: {}
+[32.400318] (-) TimerEvent: {}
+[32.500641] (-) TimerEvent: {}
+[32.600996] (-) TimerEvent: {}
+[32.701329] (-) TimerEvent: {}
+[32.801675] (-) TimerEvent: {}
+[32.902005] (-) TimerEvent: {}
+[33.002340] (-) TimerEvent: {}
+[33.102655] (-) TimerEvent: {}
+[33.202870] (-) TimerEvent: {}
+[33.303187] (-) TimerEvent: {}
+[33.403514] (-) TimerEvent: {}
+[33.503823] (-) TimerEvent: {}
+[33.604140] (-) TimerEvent: {}
+[33.704467] (-) TimerEvent: {}
+[33.804796] (-) TimerEvent: {}
+[33.905132] (-) TimerEvent: {}
+[34.005473] (-) TimerEvent: {}
+[34.106005] (-) TimerEvent: {}
+[34.206446] (-) TimerEvent: {}
+[34.307032] (-) TimerEvent: {}
+[34.407385] (-) TimerEvent: {}
+[34.507742] (-) TimerEvent: {}
+[34.608097] (-) TimerEvent: {}
+[34.708450] (-) TimerEvent: {}
+[34.808779] (-) TimerEvent: {}
+[34.909091] (-) TimerEvent: {}
+[35.009404] (-) TimerEvent: {}
+[35.109760] (-) TimerEvent: {}
+[35.210107] (-) TimerEvent: {}
+[35.310423] (-) TimerEvent: {}
+[35.410672] (-) TimerEvent: {}
+[35.510979] (-) TimerEvent: {}
+[35.611285] (-) TimerEvent: {}
+[35.711613] (-) TimerEvent: {}
+[35.811939] (-) TimerEvent: {}
+[35.912247] (-) TimerEvent: {}
+[36.012559] (-) TimerEvent: {}
+[36.112885] (-) TimerEvent: {}
+[36.213211] (-) TimerEvent: {}
+[36.313543] (-) TimerEvent: {}
+[36.413773] (-) TimerEvent: {}
+[36.514114] (-) TimerEvent: {}
+[36.614478] (-) TimerEvent: {}
+[36.714712] (-) TimerEvent: {}
+[36.815059] (-) TimerEvent: {}
+[36.915398] (-) TimerEvent: {}
+[37.015813] (-) TimerEvent: {}
+[37.116165] (-) TimerEvent: {}
+[37.216529] (-) TimerEvent: {}
+[37.316876] (-) TimerEvent: {}
+[37.417289] (-) TimerEvent: {}
+[37.517652] (-) TimerEvent: {}
+[37.618012] (-) TimerEvent: {}
+[37.718364] (-) TimerEvent: {}
+[37.818717] (-) TimerEvent: {}
+[37.919051] (-) TimerEvent: {}
+[38.019390] (-) TimerEvent: {}
+[38.119744] (-) TimerEvent: {}
+[38.220057] (-) TimerEvent: {}
+[38.320407] (-) TimerEvent: {}
+[38.420725] (-) TimerEvent: {}
+[38.521031] (-) TimerEvent: {}
+[38.621346] (-) TimerEvent: {}
+[38.721644] (-) TimerEvent: {}
+[38.821859] (-) TimerEvent: {}
+[38.922102] (-) TimerEvent: {}
+[39.022412] (-) TimerEvent: {}
+[39.122733] (-) TimerEvent: {}
+[39.223061] (-) TimerEvent: {}
+[39.323393] (-) TimerEvent: {}
+[39.423749] (-) TimerEvent: {}
+[39.524033] (-) TimerEvent: {}
+[39.624346] (-) TimerEvent: {}
+[39.724668] (-) TimerEvent: {}
+[39.824885] (-) TimerEvent: {}
+[39.925195] (-) TimerEvent: {}
+[40.025516] (-) TimerEvent: {}
+[40.125840] (-) TimerEvent: {}
+[40.226087] (-) TimerEvent: {}
+[40.326402] (-) TimerEvent: {}
+[40.426645] (-) TimerEvent: {}
+[40.526975] (-) TimerEvent: {}
+[40.627301] (-) TimerEvent: {}
+[40.727621] (-) TimerEvent: {}
+[40.827935] (-) TimerEvent: {}
+[40.928259] (-) TimerEvent: {}
+[41.028580] (-) TimerEvent: {}
+[41.128909] (-) TimerEvent: {}
+[41.229140] (-) TimerEvent: {}
+[41.329489] (-) TimerEvent: {}
+[41.429710] (-) TimerEvent: {}
+[41.530017] (-) TimerEvent: {}
+[41.630333] (-) TimerEvent: {}
+[41.730653] (-) TimerEvent: {}
+[41.830874] (-) TimerEvent: {}
+[41.931189] (-) TimerEvent: {}
+[42.031522] (-) TimerEvent: {}
+[42.131868] (-) TimerEvent: {}
+[42.232186] (-) TimerEvent: {}
+[42.332509] (-) TimerEvent: {}
+[42.432967] (-) TimerEvent: {}
+[42.533294] (-) TimerEvent: {}
+[42.633613] (-) TimerEvent: {}
+[42.733941] (-) TimerEvent: {}
+[42.834225] (-) TimerEvent: {}
+[42.934565] (-) TimerEvent: {}
+[43.034775] (-) TimerEvent: {}
+[43.135026] (-) TimerEvent: {}
+[43.235351] (-) TimerEvent: {}
+[43.335680] (-) TimerEvent: {}
+[43.436005] (-) TimerEvent: {}
+[43.536311] (-) TimerEvent: {}
+[43.636620] (-) TimerEvent: {}
+[43.736940] (-) TimerEvent: {}
+[43.837183] (-) TimerEvent: {}
+[43.937504] (-) TimerEvent: {}
+[44.037869] (-) TimerEvent: {}
+[44.138209] (-) TimerEvent: {}
+[44.238521] (-) TimerEvent: {}
+[44.338836] (-) TimerEvent: {}
+[44.439171] (-) TimerEvent: {}
+[44.539491] (-) TimerEvent: {}
+[44.639976] (-) TimerEvent: {}
+[44.740292] (-) TimerEvent: {}
+[44.840598] (-) TimerEvent: {}
+[44.940908] (-) TimerEvent: {}
+[45.041170] (-) TimerEvent: {}
+[45.141489] (-) TimerEvent: {}
+[45.241813] (-) TimerEvent: {}
+[45.342064] (-) TimerEvent: {}
+[45.442382] (-) TimerEvent: {}
+[45.542711] (-) TimerEvent: {}
+[45.643024] (-) TimerEvent: {}
+[45.743366] (-) TimerEvent: {}
+[45.843644] (-) TimerEvent: {}
+[45.943968] (-) TimerEvent: {}
+[46.044279] (-) TimerEvent: {}
+[46.144596] (-) TimerEvent: {}
+[46.244906] (-) TimerEvent: {}
+[46.345240] (-) TimerEvent: {}
+[46.445558] (-) TimerEvent: {}
+[46.545771] (-) TimerEvent: {}
+[46.646099] (-) TimerEvent: {}
+[46.746423] (-) TimerEvent: {}
+[46.846640] (-) TimerEvent: {}
+[46.946849] (-) TimerEvent: {}
+[47.047065] (-) TimerEvent: {}
+[47.147392] (-) TimerEvent: {}
+[47.247702] (-) TimerEvent: {}
+[47.348012] (-) TimerEvent: {}
+[47.448324] (-) TimerEvent: {}
+[47.548646] (-) TimerEvent: {}
+[47.648893] (-) TimerEvent: {}
+[47.749257] (-) TimerEvent: {}
+[47.809900] (lio_sam) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_mapOptimization\x1b[0m\n'}
+[47.849459] (-) TimerEvent: {}
+[47.949852] (-) TimerEvent: {}
+[48.050190] (-) TimerEvent: {}
+[48.150529] (-) TimerEvent: {}
+[48.250867] (-) TimerEvent: {}
+[48.351197] (-) TimerEvent: {}
+[48.447475] (lio_sam) StdoutLine: {'line': b'[ 97%] Built target lio_sam_mapOptimization\n'}
+[48.448655] (lio_sam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[48.451420] (lio_sam) CommandEnded: {'returncode': 2}
+[48.452259] (-) TimerEvent: {}
+[48.456788] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 2}
+[48.467172] (-) EventReactorShutdown: {}

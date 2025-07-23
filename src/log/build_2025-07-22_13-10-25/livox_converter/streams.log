@@ -1,0 +1,37 @@
+[0.571s] Invoking command in '/home/aria/lidarslam/src/livox_converter': PYTHONPATH=/home/aria/lidarslam/src/build/livox_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/livox_converter build --build-base /home/aria/lidarslam/src/build/livox_converter/build install --record /home/aria/lidarslam/src/build/livox_converter/install.log --single-version-externally-managed install_data
+[0.726s] running egg_info
+[0.727s] creating ../build/livox_converter/livox_converter.egg-info
+[0.727s] writing ../build/livox_converter/livox_converter.egg-info/PKG-INFO
+[0.727s] writing dependency_links to ../build/livox_converter/livox_converter.egg-info/dependency_links.txt
+[0.727s] writing entry points to ../build/livox_converter/livox_converter.egg-info/entry_points.txt
+[0.727s] writing requirements to ../build/livox_converter/livox_converter.egg-info/requires.txt
+[0.727s] writing top-level names to ../build/livox_converter/livox_converter.egg-info/top_level.txt
+[0.727s] writing manifest file '../build/livox_converter/livox_converter.egg-info/SOURCES.txt'
+[0.729s] reading manifest file '../build/livox_converter/livox_converter.egg-info/SOURCES.txt'
+[0.729s] writing manifest file '../build/livox_converter/livox_converter.egg-info/SOURCES.txt'
+[0.729s] running build
+[0.729s] running build_py
+[0.730s] creating /home/aria/lidarslam/src/build/livox_converter/build
+[0.730s] creating /home/aria/lidarslam/src/build/livox_converter/build/lib
+[0.730s] creating /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter
+[0.730s] copying livox_converter/livox_to_pcl.py -> /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter
+[0.730s] copying livox_converter/__init__.py -> /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter
+[0.730s] running install
+[0.730s] running install_lib
+[0.731s] creating /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter
+[0.731s] copying /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter/livox_to_pcl.py -> /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter
+[0.731s] copying /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter/__init__.py -> /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter
+[0.731s] byte-compiling /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter/livox_to_pcl.py to livox_to_pcl.cpython-310.pyc
+[0.731s] byte-compiling /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter/__init__.py to __init__.cpython-310.pyc
+[0.731s] running install_data
+[0.731s] creating /home/aria/lidarslam/src/install/livox_converter/share/ament_index
+[0.732s] creating /home/aria/lidarslam/src/install/livox_converter/share/ament_index/resource_index
+[0.732s] creating /home/aria/lidarslam/src/install/livox_converter/share/ament_index/resource_index/packages
+[0.732s] copying resource/livox_converter -> /home/aria/lidarslam/src/install/livox_converter/share/ament_index/resource_index/packages
+[0.732s] copying package.xml -> /home/aria/lidarslam/src/install/livox_converter/share/livox_converter
+[0.732s] running install_egg_info
+[0.733s] Copying ../build/livox_converter/livox_converter.egg-info to /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter-0.0.0-py3.10.egg-info
+[0.733s] running install_scripts
+[0.747s] Installing livox_to_pcl script to /home/aria/lidarslam/src/install/livox_converter/lib/livox_converter
+[0.747s] writing list of installed files to '/home/aria/lidarslam/src/build/livox_converter/install.log'
+[0.761s] Invoked command in '/home/aria/lidarslam/src/livox_converter' returned '0': PYTHONPATH=/home/aria/lidarslam/src/build/livox_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/livox_converter build --build-base /home/aria/lidarslam/src/build/livox_converter/build install --record /home/aria/lidarslam/src/build/livox_converter/install.log --single-version-externally-managed install_data

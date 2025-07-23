@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kiss_icp/pipeline",
+		"source" : "/home/aria/lidarslam/src/kiss-icp/cpp/kiss_icp/pipeline"
+	}
+}

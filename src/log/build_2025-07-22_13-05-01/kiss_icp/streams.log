@@ -1,0 +1,80 @@
+[0.008s] Invoking command in '/home/aria/lidarslam/src/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aria/lidarslam/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/aria/lidarslam/src/install/kiss_icp
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.196s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.196s] -- Detecting CXX compile features
+[0.197s] -- Detecting CXX compile features - done
+[2.127s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.256s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.318s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.344s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.347s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.353s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.398s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.409s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.437s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.439s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.545s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.594s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.632s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.648s] -- Found Threads: TRUE  
+[2.679s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.697s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.709s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.804s] -- Configuring done
+[2.820s] -- Generating done
+[2.826s] -- Build files have been written to: /home/aria/lidarslam/src/build/kiss_icp
+[2.834s] Invoked command in '/home/aria/lidarslam/src/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aria/lidarslam/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/aria/lidarslam/src/install/kiss_icp
+[2.835s] Invoking command in '/home/aria/lidarslam/src/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aria/lidarslam/src/build/kiss_icp -- -j20 -l20
+[2.915s] [ 14%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o[0m
+[2.915s] [ 14%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o[0m
+[2.916s] [ 21%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o[0m
+[2.917s] [ 28%] [32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o[0m
+[2.919s] [ 35%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o[0m
+[2.922s] [ 42%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o[0m
+[2.923s] [ 50%] [32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o[0m
+[5.851s] [ 57%] [32m[1mLinking CXX executable kiss_icp_node[0m
+[5.939s] [ 57%] Built target kiss_icp_node
+[8.074s] [ 64%] [32m[1mLinking CXX static library libkiss_icp_core.a[0m
+[8.132s] [ 64%] Built target kiss_icp_core
+[8.153s] [ 71%] [32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o[0m
+[9.650s] [ 78%] [32m[1mLinking CXX static library libkiss_icp_pipeline.a[0m
+[9.703s] [ 78%] Built target kiss_icp_pipeline
+[9.719s] [ 85%] [32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o[0m
+[11.849s] [ 92%] [32m[1mLinking CXX static library libkiss_icp_metrics.a[0m
+[11.903s] [ 92%] Built target kiss_icp_metrics
+[22.288s] [100%] [32m[1mLinking CXX shared library libodometry_component.so[0m
+[22.449s] [100%] Built target odometry_component
+[22.462s] Invoked command in '/home/aria/lidarslam/src/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aria/lidarslam/src/build/kiss_icp -- -j20 -l20
+[22.476s] Invoking command in '/home/aria/lidarslam/src/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aria/lidarslam/src/build/kiss_icp
+[22.487s] -- Install configuration: "Release"
+[22.488s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/lib/kiss_icp/kiss_icp_node
+[22.488s] -- Set runtime path of "/home/aria/lidarslam/src/install/kiss_icp/lib/kiss_icp/kiss_icp_node" to ""
+[22.488s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/lib/libodometry_component.so
+[22.489s] -- Set runtime path of "/home/aria/lidarslam/src/install/kiss_icp/lib/libodometry_component.so" to ""
+[22.489s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp//launch
+[22.489s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp//rviz
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp//config
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp//config/config.yaml
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/environment/path.sh
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/environment/path.dsv
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/local_setup.bash
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/local_setup.sh
+[22.490s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/local_setup.zsh
+[22.491s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/local_setup.dsv
+[22.491s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/package.dsv
+[22.491s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp
+[22.491s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp
+[22.491s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake
+[22.491s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+[22.491s] -- Installing: /home/aria/lidarslam/src/install/kiss_icp/share/kiss_icp/package.xml
+[22.494s] Invoked command in '/home/aria/lidarslam/src/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aria/lidarslam/src/build/kiss_icp

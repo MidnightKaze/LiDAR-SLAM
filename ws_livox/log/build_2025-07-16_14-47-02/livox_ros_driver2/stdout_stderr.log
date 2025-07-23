@@ -1,0 +1,5 @@
+-- Configuring incomplete, errors occurred!
+[31mCMake Error at CMakeLists.txt:147:
+  Parse error.  Expected a command name, got quoted argument with text "".
+
+[0m

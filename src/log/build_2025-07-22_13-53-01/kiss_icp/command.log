@@ -1,0 +1,4 @@
+Invoking command in '/home/aria/lidarslam/src/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aria/lidarslam/src/build/kiss_icp -- -j20 -l20
+Invoked command in '/home/aria/lidarslam/src/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aria/lidarslam/src/build/kiss_icp -- -j20 -l20
+Invoking command in '/home/aria/lidarslam/src/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aria/lidarslam/src/build/kiss_icp
+Invoked command in '/home/aria/lidarslam/src/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aria/lidarslam/src/build/kiss_icp

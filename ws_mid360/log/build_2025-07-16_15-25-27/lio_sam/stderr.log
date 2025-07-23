@@ -1,0 +1,4 @@
+In file included from [01m[K/home/aria/lidarslam/ws_mid360/src/LIO-SAM/src/imuPreintegration.cpp:17[m[K:
+[01m[K/usr/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "IncrementalFixedLagSmoother was moved to the gtsam/nonlinear directory"
+      |  [01;35m[K^~~~~~~[m[K

@@ -1,0 +1,3 @@
+[console_scripts]
+livox_to_pcl = livox_converter.livox_to_pcl:main
+

@@ -1,0 +1,4 @@
+Invoking command in '/home/aria/lidarslam/ws_mid360/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aria/lidarslam/ws_mid360/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/aria/lidarslam/ws_mid360/install/lio_sam
+Invoked command in '/home/aria/lidarslam/ws_mid360/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aria/lidarslam/ws_mid360/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/aria/lidarslam/ws_mid360/install/lio_sam
+Invoking command in '/home/aria/lidarslam/ws_mid360/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aria/lidarslam/ws_mid360/build/lio_sam -- -j20 -l20
+Invoked command in '/home/aria/lidarslam/ws_mid360/build/lio_sam' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aria/lidarslam/ws_mid360/build/lio_sam -- -j20 -l20

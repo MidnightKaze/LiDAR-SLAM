@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/livox_converter/livox_converter.egg-info
+writing ../build/livox_converter/livox_converter.egg-info/PKG-INFO
+writing dependency_links to ../build/livox_converter/livox_converter.egg-info/dependency_links.txt
+writing entry points to ../build/livox_converter/livox_converter.egg-info/entry_points.txt
+writing requirements to ../build/livox_converter/livox_converter.egg-info/requires.txt
+writing top-level names to ../build/livox_converter/livox_converter.egg-info/top_level.txt
+writing manifest file '../build/livox_converter/livox_converter.egg-info/SOURCES.txt'
+reading manifest file '../build/livox_converter/livox_converter.egg-info/SOURCES.txt'
+writing manifest file '../build/livox_converter/livox_converter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aria/lidarslam/src/build/livox_converter/build
+creating /home/aria/lidarslam/src/build/livox_converter/build/lib
+creating /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter
+copying livox_converter/livox_to_pcl.py -> /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter
+copying livox_converter/__init__.py -> /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter
+running install
+running install_lib
+creating /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter
+copying /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter/livox_to_pcl.py -> /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter
+copying /home/aria/lidarslam/src/build/livox_converter/build/lib/livox_converter/__init__.py -> /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter
+byte-compiling /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter/livox_to_pcl.py to livox_to_pcl.cpython-310.pyc
+byte-compiling /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/aria/lidarslam/src/install/livox_converter/share/ament_index
+creating /home/aria/lidarslam/src/install/livox_converter/share/ament_index/resource_index
+creating /home/aria/lidarslam/src/install/livox_converter/share/ament_index/resource_index/packages
+copying resource/livox_converter -> /home/aria/lidarslam/src/install/livox_converter/share/ament_index/resource_index/packages
+copying package.xml -> /home/aria/lidarslam/src/install/livox_converter/share/livox_converter
+running install_egg_info
+Copying ../build/livox_converter/livox_converter.egg-info to /home/aria/lidarslam/src/install/livox_converter/lib/python3.10/site-packages/livox_converter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing livox_to_pcl script to /home/aria/lidarslam/src/install/livox_converter/lib/livox_converter
+writing list of installed files to '/home/aria/lidarslam/src/build/livox_converter/install.log'

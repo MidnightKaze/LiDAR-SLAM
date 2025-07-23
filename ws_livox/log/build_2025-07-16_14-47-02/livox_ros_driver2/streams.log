@@ -1,0 +1,7 @@
+[0.006s] Invoking command in '/home/aria/lidarslam/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aria/lidarslam/ws_livox/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/aria/lidarslam/ws_livox/install/livox_ros_driver2
+[0.017s] -- Configuring incomplete, errors occurred!
+[0.017s] [31mCMake Error at CMakeLists.txt:147:
+[0.017s]   Parse error.  Expected a command name, got quoted argument with text "".
+[0.017s] 
+[0.017s] [0m
+[0.019s] Invoked command in '/home/aria/lidarslam/ws_livox/build/livox_ros_driver2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aria/lidarslam/ws_livox/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/aria/lidarslam/ws_livox/install/livox_ros_driver2
