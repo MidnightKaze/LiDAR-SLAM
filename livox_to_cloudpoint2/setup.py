@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'livox_converter = livox_to_cloudpoint2.livox_to_cloudpoint2:main',
         ],
     },
 )
