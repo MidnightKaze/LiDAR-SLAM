@@ -20,3 +20,5 @@ If you're looking to run a full SLAM system I suggest opening two terminals and 
 Alternatively if you don't want to use the live converter there is a Python script that will convert a recorded bag into PointCloud2 messages for KissICP. To run that use `python3 livox_bag_to_pointcloud2.py --ros-args -p input_bag_path:={your bag path}`
 
 The converted bag will save in a sub folder within the original bag's folder.
+
+Additionally, if you want to export a map/scan into a `.pcd` then run `python3 pointcloud2_save_to_pcd` and then a bunch of files will be saved into `saved_maps`. (___This will quite literally save every single frame so be ready!___)
